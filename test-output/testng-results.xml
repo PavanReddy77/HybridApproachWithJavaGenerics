@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubSpot Regression Suite" duration-ms="132899" started-at="2019-07-24T17:17:36Z" finished-at="2019-07-24T17:19:49Z">
+    <groups>
+    </groups>
+    <test name="HubSpot Tests" duration-ms="132899" started-at="2019-07-24T17:17:36Z" finished-at="2019-07-24T17:19:49Z">
+      <class name="com.qa.HubSpot.Tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.HubSpot.Tests.LoginPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="11812" started-at="2019-07-24T22:47:36Z" finished-at="2019-07-24T22:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.HubSpot.Tests.LoginPageTest@7c16905e]" name="verifyLoginPageTitleTest" duration-ms="7705" started-at="2019-07-24T22:47:48Z" finished-at="2019-07-24T22:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.HubSpot.Tests.LoginPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="657" started-at="2019-07-24T22:47:55Z" finished-at="2019-07-24T22:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.HubSpot.Tests.LoginPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="10466" started-at="2019-07-24T22:48:47Z" finished-at="2019-07-24T22:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.qa.HubSpot.Tests.LoginPageTest@7c16905e]" name="loginTest" duration-ms="10594" started-at="2019-07-24T22:48:57Z" finished-at="2019-07-24T22:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.HubSpot.Tests.LoginPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="640" started-at="2019-07-24T22:49:08Z" finished-at="2019-07-24T22:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.HubSpot.Tests.LoginPageTest -->
+      <class name="com.qa.HubSpot.Tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.HubSpot.Tests.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="11168" started-at="2019-07-24T22:47:56Z" finished-at="2019-07-24T22:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.HubSpot.Tests.HomePageTest@2a2d45ba]" name="verifyHomePageTitleTest" duration-ms="38830" started-at="2019-07-24T22:48:07Z" finished-at="2019-07-24T22:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.HubSpot.Tests.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="614" started-at="2019-07-24T22:48:46Z" finished-at="2019-07-24T22:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.HubSpot.Tests.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="10496" started-at="2019-07-24T22:49:08Z" finished-at="2019-07-24T22:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.HubSpot.Tests.HomePageTest@2a2d45ba]" name="verifyHomePageHeaderTest" duration-ms="29204" started-at="2019-07-24T22:49:19Z" finished-at="2019-07-24T22:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.HubSpot.Tests.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="655" started-at="2019-07-24T22:49:48Z" finished-at="2019-07-24T22:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.HubSpot.Tests.HomePageTest -->
+    </test> <!-- HubSpot Tests -->
+  </suite> <!-- HubSpot Regression Suite -->
+</testng-results>

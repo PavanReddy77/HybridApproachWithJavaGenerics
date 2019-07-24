@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HubSpot Regression Suite">
+
+	<test name="HubSpot Tests">
+	
+		<classes>
+			<class name="com.qa.HubSpot.Tests.LoginPageTest"/>
+       		<class name="com.qa.HubSpot.Tests.HomePageTest"/>
+    	</classes>
+    	
+	</test>
+	
+</suite>
