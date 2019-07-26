@@ -24,7 +24,7 @@ public class BaseTest
 		driver.get("https://app.hubspot.com/login");
 		Thread.sleep(6000);
 		
-		//Create the Object of Page Class >> Instantiate Page Class.
+		//Create the Object of Page Class >> Instantiate Page Class
 		page = new Page(driver, wait);
 	}
 	
