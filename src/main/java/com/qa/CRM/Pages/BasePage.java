@@ -1,4 +1,4 @@
-package com.qa.HubSpot.Pages;
+package com.qa.CRM.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

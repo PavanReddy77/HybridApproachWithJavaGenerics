@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [HubSpot Regression Suite]">
-  <test name="HubSpot Tests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.HubSpot.Tests.HomePageTest">
+      <class name="com.qa.CRM.Tests.HomePageTest">
         <methods>
-          <include name="verifyHomePageTitleTest"/>
           <include name="verifyHomePageHeaderTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.HubSpot.Tests.HomePageTest -->
+      </class> <!-- com.qa.CRM.Tests.HomePageTest -->
     </classes>
-  </test> <!-- HubSpot Tests(failed) -->
-</suite> <!-- Failed suite [HubSpot Regression Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

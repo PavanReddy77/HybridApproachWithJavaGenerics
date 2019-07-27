@@ -1,4 +1,4 @@
-package com.qa.HubSpot.Pages;
+package com.qa.CRM.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +13,7 @@ public class HomePage extends BasePage
 	
 	//Define Page Locators:
 	//Non Page Factory with the help of By Locators is Easy and Light Weight.
-	By header = By.className("private-page__title");
+	By userName = By.xpath("//td[contains(text(),'User: Pavan KrishnanReddy')]");
 	
 	//Define Page Actions:
 	public String homePageTitle()
@@ -21,8 +21,8 @@ public class HomePage extends BasePage
 		return driver.getTitle();
 	}
 	
-	public String getHomePageHeader()
+	public String getHomePageUserName()
 	{
-		return doGetText(header);
+		return doGetText(userName);
 	}
 }

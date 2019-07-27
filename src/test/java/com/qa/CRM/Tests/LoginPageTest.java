@@ -1,9 +1,9 @@
-package com.qa.HubSpot.Tests;
+package com.qa.CRM.Tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.qa.HubSpot.Pages.LoginPage;
+import com.qa.CRM.Pages.LoginPage;
 
 public class LoginPageTest extends BaseTest
 {
@@ -12,12 +12,12 @@ public class LoginPageTest extends BaseTest
 	{
 		String title = page.getInstance(LoginPage.class).getLoginPageTitle();
 		System.out.println("The Login Page Title is ::: " +title);
-		Assert.assertEquals(title, "HubSpot Login");
+		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 	}
 	
 	@Test(priority=2)
 	public void loginTest()
 	{
-		page.getInstance(LoginPage.class).doLogin("naveenanimation20@gmail.com", "Test@1234");
+		page.getInstance(LoginPage.class).doLogin("pavanreddy", "Saibaba77");
 	}
 }

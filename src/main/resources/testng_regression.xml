@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="HubSpot Regression Suite">
+<suite name="CRM Regression Suite">
 
-	<test name="HubSpot Tests">
+	<test name="CRM Tests">
 	
 		<classes>
-			<class name="com.qa.HubSpot.Tests.LoginPageTest"/>
-       		<class name="com.qa.HubSpot.Tests.HomePageTest"/>
+			<class name="com.qa.CRM.Tests.LoginPageTest"/>
+			<class name="com.qa.CRM.Tests.HomePageTest"/>
     	</classes>
     	
 	</test>

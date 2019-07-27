@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.HubSpot.Tests.LoginPageTest">
+      <class name="com.qa.CRM.Tests.HomePageTest">
         <methods>
-          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyHomePageHeaderTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.HubSpot.Tests.LoginPageTest -->
+      </class> <!-- com.qa.CRM.Tests.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
