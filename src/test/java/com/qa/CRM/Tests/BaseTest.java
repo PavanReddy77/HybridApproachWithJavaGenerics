@@ -1,5 +1,7 @@
 package com.qa.CRM.Tests;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,9 +24,9 @@ public class BaseTest
 		wait = new WebDriverWait(driver, 15);
 		driver.manage().window().maximize();
 		driver.get("https://classic.crmpro.com/index.html");
-		Thread.sleep(6000);
+		Thread.sleep(3000);
 		
-		//Create the Object of Page Class >> Instantiate Page Class
+		//Create the Object of Page Class >> Instantiate Page Class.
 		page = new Page(driver, wait);
 	}
 	
